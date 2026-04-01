@@ -2,7 +2,7 @@
 
 #AUTHOR
 #   Rene Warren
-#   rwarren at bcgsc.ca
+#   rwarren at bccrc.ca
 
 
 #NAME
@@ -13,7 +13,7 @@
 
 #DOCUMENTATION
 #   readme.md distributed with this software
-#   We hope this code is useful to you -- Please send comments & suggestions to rwarren * bcgsc.ca
+#   We hope this code is useful to you -- Please send comments & suggestions to rwarren * bccrc.ca
 #   If you use RAILS, the RAILS code or ideas, please cite our work
 #  
 
@@ -28,7 +28,7 @@ getopts('f:s:d:v:b:t:i:q:g:l:p:');
 my ($base_name,$anchor,$seqid,$verbose,$minreads,$grace)=("",1000,0.9,0,1,1);
 
 my $version = "[v0.6.1]";
-my $dev = "rwarren\@bcgsc.ca";
+my $dev = "rwarren\@bccrc.ca";
 my $SAMPATH = "";
 
 #-------------------------------------------------
@@ -810,4 +810,4 @@ sub stdev{
         return $std;
 }
 
-## We hope this code is useful to you -- Please send comments & suggestions to rwarren at bcgsc.ca
+## We hope this code is useful to you -- Please send comments & suggestions to rwarren at bccrc.ca
