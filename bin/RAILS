@@ -2,7 +2,7 @@
 
 #AUTHOR
 #   Rene Warren
-#   rwarren at bcgsc.ca
+#   rwarren at bccrc.ca
 #
 #
 #   NAME
@@ -13,7 +13,7 @@
 #
 #   DOCUMENTATION
 #      readme.md distributed with this software
-#      We hope this code is useful to you -- Please send comments & suggestions to rwarren * bcgsc.ca
+#      We hope this code is useful to you -- Please send comments & suggestions to rwarren * bccrc.ca
 #      If you use RAILS, the RAILS code or ideas, please cite our work
 #     
 #
@@ -28,7 +28,7 @@ getopts('f:s:d:e:l:a:v:b:t:p:i:q:g:p:');
 my ($base_name,$anchor,$seqid,$insert_stdev,$min_links,$max_link_ratio,$grace,$verbose)=("",1000,0.9,1.0,1,0.99,1,0,);
 
 my $version = "[v1.5.1]";
-my $dev = "rwarren\@bcgsc.ca";
+my $dev = "rwarren\@bccrc.ca";
 my $SAMPATH = "";
 #-------------------------------------------------
 
@@ -1286,4 +1286,4 @@ sub buildScaffoldFasta{
    return $scaffold_fasta,\@gsl,$merges;
 }
 
-## We hope this code is useful to you -- Please send comments & suggestions to rwarren at bcgsc.ca
+## We hope this code is useful to you -- Please send comments & suggestions to rwarren at bccrc.ca

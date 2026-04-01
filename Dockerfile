@@ -6,7 +6,7 @@ FROM debian:testing
 #
 # Authorship
 #
-MAINTAINER rwarren@bcgsc.ca
+MAINTAINER rwarren@bccrc.ca
 
 #
 # Update and Install dependencies
@@ -16,7 +16,7 @@ RUN apt-get update -qq && apt-get install -y bwa wget cpanminus
 #
 # Download the software
 #
-RUN wget https://github.com/bcgsc/RAILS/tree/master/tarball/rails_v1-5-0.tar.gz && tar xvfz rails_v1-5-0.tar.gz && rm rails_v1-5-0.tar.gz 
+RUN wget https://github.com/BirolLab/RAILS/tree/master/tarball/rails_v1-5-0.tar.gz && tar xvfz rails_v1-5-0.tar.gz && rm rails_v1-5-0.tar.gz 
 
 #
 # Set the default working directory
